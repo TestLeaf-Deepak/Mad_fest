@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Add Feed"
+            android:id="@+id/menu_feeds"
+            android:icon="@drawable/add_feed"
+            >
+        </item>
+
+        <item android:title="Games"
+            android:id="@+id/menu_games"
+            android:icon="@drawable/games"
+            >
+        </item>
+
+        <item android:title="Points Table"
+            android:id="@+id/menu_pointstable"
+            android:icon="@drawable/points_table"
+            >
+        </item>
+
+        <item android:title="Gallery"
+            android:id="@+id/menu_gallery"
+            android:icon="@drawable/gallery"
+            >
+        </item>
+
+        <item android:title="Voting"
+            android:id="@+id/menu_voting"
+            android:icon="@drawable/voting"
+            >
+        </item>
+        <item android:title="Teams"
+            android:id="@+id/menu_teams"
+            android:icon="@drawable/teams"
+            >
+        </item>
+
+    </group>
+
+    <group android:id="@+id/nav_footer">
+        <item
+            android:id="@+id/nav_footer_1"
+            android:title="About US" />
+        <item
+            android:id="@+id/nav_footer_2"
+            android:title="Rate Us" />
+
+        <item
+            android:id="@+id/nav_footer_3"
+            android:title="SIGN OUT" />
+    </group>
+
+
+</menu>

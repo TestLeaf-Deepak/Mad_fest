@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pratheesh.madfest_sample.points_table"
+    >
+
+    <HorizontalScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tablerow">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#607D8B"
+            android:weightSum="9.5"
+            >
+
+            <TextView
+                android:id="@+id/TextView00" android:text="Event"
+                android:layout_height="wrap_content" 
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"
+                android:textSize="10dp"
+                />
+
+            <TextView
+                android:id="@+id/TextView01" android:text="Mankatha"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView02" android:text="Bayanak Babas"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView03" android:text="Force"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView04" android:text="Google"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView05" android:text="Unstoppable"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView06" android:text="Victorious walkers"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView07" android:text="Morgan Minions"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView08" android:text="Power of one"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+
+        </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/points_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal"
+        android:layout_below="@+id/tablerow"/>
+</LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

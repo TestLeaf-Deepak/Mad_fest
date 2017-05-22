@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context="com.example.pratheesh.madfest_sample.Add_Image">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.75"
+        android:adjustViewBounds="true"
+        android:maxHeight="?android:attr/listPreferredItemHeight"
+        android:maxWidth="?android:attr/listPreferredItemHeight"
+        android:scaleType="centerCrop"
+        android:id="@+id/addimage_image"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:text="Add Image"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/addimage_add"
+        android:layout_margin="10dp"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

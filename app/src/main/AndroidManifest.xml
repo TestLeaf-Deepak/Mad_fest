@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pratheesh.madfest_sample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Mainpage" />
+        <activity android:name=".madfext_Toolbar" />
+        <activity android:name=".navigation_header" />
+        <activity android:name=".CardRow" />
+        <activity android:name=".Add_Feed" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".gallery_thumbnail" />
+        <activity android:name=".image_slider" />
+        <activity android:name=".points_table" />
+        <activity android:name=".Games_chennai" />
+        <activity android:name=".Games" />
+        <activity android:name=".voting_viewpager" />
+        <activity android:name=".voting_frame1" />
+        <activity android:name=".voting_frame2" />
+
+        <!-- Firebase Notifications -->
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+        <activity android:name=".FireBase" />
+        <activity android:name=".Team_chennai" />
+        <activity android:name=".TeamDetails" />
+        <activity android:name=".Team_details_logo" />
+        <activity android:name=".team_details_teammembers" />
+        <activity android:name=".Games_Detail" />
+        <activity android:name=".Games_Rules" />
+        <activity android:name=".Games_Results" />
+        <activity android:name=".Add_Image" />
+        <activity android:name=".Games_ViewPager" />
+        <activity android:name=".games_banglore" />
+        <activity android:name=".games_pune" />
+        <activity android:name=".Team_Viewpager" />
+        <activity android:name=".Team_banglore" />
+        <activity android:name=".Team_pune" />
+        <activity android:name=".Points_Table_ViewPager" />
+        <activity android:name=".Points_Table_banglore" />
+        <activity android:name=".Points_Table_Pune" />
+        <activity android:name=".Rules" />
+        <activity android:name=".Games_Results_details"></activity>
+    </application>
+
+</manifest>

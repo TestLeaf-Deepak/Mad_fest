@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="9.5">
+
+            <TextView
+                android:id="@+id/card_row_00" android:text="Event"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:background="#607D8B"
+                android:textColor="#000000"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/card_row_01" android:text="20"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:paddingRight="40dp"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/card_row_02" android:text="20"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/card_row_03" android:text="Force"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"   android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/card_row_04" android:text="Google"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/card_row_05" android:text="Unstoppable"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"  android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/card_row_06" android:text="Victorious walkers"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="50dp"
+                android:layout_height="wrap_content" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/card_row_07" android:text="Morgan Minions"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"  android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/card_row_08" android:text="Power of one"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:textSize="10dp"
+                android:padding="20dip" android:gravity="center"/>
+
+
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

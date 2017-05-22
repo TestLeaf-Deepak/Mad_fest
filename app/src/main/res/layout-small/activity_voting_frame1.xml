@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pratheesh.madfest_sample.voting_frame2"
+    android:background="#80607D8B"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:background="@drawable/voting_roundedrectangle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/voting_roundedframe2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which is the best Team"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/voting_bestteam"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leading Team"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/voting_topteam"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/voting_bestteam"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/voting_topteam">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/voting_recyclerview_topteams">
+        </android.support.v7.widget.RecyclerView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/voting_recyclerview_topteams"
+                android:layout_marginTop="15dp"
+                android:text="Cast your Vote"
+                android:background="@drawable/button"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/addimage_add"
+
+                />
+
+        </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
